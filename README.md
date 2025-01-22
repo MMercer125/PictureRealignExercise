@@ -10,6 +10,6 @@ Interactive Alert: When the page is loaded, a JavaScript alert appears with the 
 Text Styling: The page contains a title with a text-shadow and custom styling for the first letter and first line of a paragraph.
 
 How It Works
-HTML Structure: The images are placed inside a <div> with an id of cube. Each image is given a specific id and styled with CSS.
+HTML Structure: The images are placed inside a <div> with an id of a cube. Each image is given a specific id and styled with CSS.
 CSS 3D Transformations: The transform property is used to position each image on the cube's faces, with various rotations and translations applied.
 JavaScript: When the page is loaded, an alert box is shown with a message.
