@@ -1,0 +1,47 @@
+/* Micah Mercer*/
+
+h1 {
+   color: white; 
+   text-shadow: 0 0 20px rgba(120, 85, 0); 
+}
+
+div#cube {
+   perspective: 500px; 
+   transform-style: preserve-3d; 
+}
+
+img {
+   filter: sepia(1); 
+   box-shadow: 0 0 20px black; 
+}
+
+
+#img1 {
+   transform: translateZ(-150px); 
+}
+
+#img2 {
+   transform: rotateX(90deg) translateZ(-150px); 
+}
+
+#img3 {
+   transform: rotateY(-90deg) translateZ(150px); 
+}
+
+#img4 {
+   transform: rotateY(90deg) translateZ(150px); 
+}
+
+#img5 {
+   transform: rotateX(-90deg) translateZ(-150px); 
+}
+
+
+p::first-letter {
+   font-size: 150%; 
+}
+
+p::first-line {
+   font-style: italic; 
+}
+
